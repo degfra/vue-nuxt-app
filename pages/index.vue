@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="container">
-      <div>
+      <!-- <div>
         <logo/>
         <h1 class="title">
           my-first-nuxt-app
@@ -17,8 +17,16 @@
           <br><br>
           <h1>Hi, I am a Vue/Nuxt first app!</h1>
         </div>
-      </div>
+      </div> -->
+
+      <!-- Server Request link => new page downloaded !!! 
+      <a href="/users">Users</a> -->
+
+      <!-- Router Link intercept => stay in SPA mode all in the browser -->
+      <!-- <nuxt-link to="/users">Users</nuxt-link> -->
+
     </section> 
+    
   </div>  
 </template>
 
