@@ -1,3 +1,15 @@
 <template>
-  <h1>An error occurred: we are sorry!</h1>
+  <div>
+    
+    <h1>An error occurred: we are sorry!</h1>
+  </div>
 </template>
+
+<script>
+import Header from '@/components/Header'
+export default {
+  components: {
+    Header
+  }
+}
+</script>
