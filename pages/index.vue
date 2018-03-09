@@ -23,7 +23,7 @@
       <a href="/users">Users</a> -->
 
       <!-- Router Link intercept => stay in SPA mode all in the browser -->
-      <!-- <nuxt-link to="/users">Users</nuxt-link> -->
+      <nuxt-link to="/users">Users</nuxt-link>
 
     </section> 
     

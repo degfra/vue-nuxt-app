@@ -4,11 +4,11 @@
      whose name == the file name of the .vue file where nuxt-child resides -->
 
 <template>
-  <div>
-    <input type="text" v-model="userId">
-    <button @click="onLoadUser">Load User</button>
-    <nuxt-child />
-  </div>
+    <div>
+        <input type="text" v-model="userId">
+        <button @click="onLoadUser">Load User</button>
+        <nuxt-child />
+    </div>
 </template>
 
 <script>
@@ -22,6 +22,7 @@ export default {
     onLoadUser() {
       this.$router.push('/users/' + this.userId)
     }
-  }
+  },
+  layout: 'users'
 }
 </script>
