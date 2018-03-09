@@ -1,11 +1,22 @@
 <template>
   <div>
+    <Header />
     <nuxt/>
   </div>
 </template>
 
+<script>
+import Header from '@/components/Header'
+export default {
+  components: {
+    Header
+  }
+}
+</script>
+
+
 <style>
-/* html
+html
 {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -49,5 +60,5 @@
 {
   color: #fff;
   background-color: #35495e;
-} */
+}
 </style>

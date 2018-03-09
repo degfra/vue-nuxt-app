@@ -23,6 +23,8 @@
       <a href="/users">Users</a> -->
 
       <!-- Router Link intercept => stay in SPA mode all in the browser -->
+
+      <Header />
       <nuxt-link to="/users">Users</nuxt-link>
 
     </section> 
@@ -31,17 +33,12 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
 }
 </script>
 
 <style>
-.container
+/* .container
 {
   min-height: 100vh;
   display: flex;
@@ -52,7 +49,7 @@ export default {
 .title
 {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
+  /* display: block;
   font-weight: 300;
   font-size: 100px;
   color: #35495e;
@@ -69,5 +66,5 @@ export default {
 .links
 {
   padding-top: 15px;
-}
+} */ 
 </style>
