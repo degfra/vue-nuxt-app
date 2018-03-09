@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my-first-nuxt-app
 
 > My prime Nuxt.js project
@@ -20,3 +21,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+=======
+# vue-nuxt-app
+Vue and Nuxt web application
+>>>>>>> a6d3b1dca1adfb53c56c602c2d8e67f584816f79
